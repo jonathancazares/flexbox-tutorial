@@ -21,3 +21,16 @@
 .login {
     margin-left: 20px;
 }
+.header-container {
+    color: #5995DA; /*Font color*/
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: 900px;
+    height: 300px; /*Explicit height allow us to vertically position our items*/
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /*Defines vertical alignment*/
+}
