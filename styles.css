@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex; /*Enables the flexbox layout mode*/
+    justify-content: center;
+}
+.menu {
+    width: 900px;
+    display: flex; /*Turns .menu into a nested flex container for its 3 items*/
+    justify-content: space-between; /*Add extra space between items*/
+}
+.links {
+    display: flex; /*Turns .links into a nested flex container*/
+}
+.login {
+    margin-left: 20px;
+}
