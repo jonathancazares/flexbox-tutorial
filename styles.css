@@ -34,3 +34,19 @@
     justify-content: space-between; 
     align-items: center; /*Defines vertical alignment*/
 }
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*Forces items that don't fit to get bumped down to the next row*/
+}
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+
