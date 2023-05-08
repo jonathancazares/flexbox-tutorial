@@ -5,23 +5,24 @@
 }
 .menu-container {
     color: #fff;
-    background-color: #5995DA;
+    background-color: #5995DA;  /* Blue */
     padding: 20px 0;
-    display: flex; /*Enables the flexbox layout mode*/
-    justify-content: center;
+    display: flex; /*Enables flexbox layout mode*/
+    justify-content: center; /*Centers the .menu box with all its items*/
 }
 .menu {
     width: 900px;
-    display: flex; /*Turns .menu into a nested flex container for its 3 items*/
+    display: flex; /*Turns .menu into a nested flex container*/
     justify-content: space-between; /*Add extra space between items*/
 }
 .links {
-    display: flex; /*Turns .links into a nested flex container*/
+    display: flex; /*Turns .links into a nested flex container to change its default layout*/
+    justify-content: flex-end;
 }
 .login {
-    margin-left: 20px;
+    margin-left: 20px; /*Adds space to separate both items*/
 }
-.header-container {
+.header-container { /* .header and all its items are inside this container*/
     color: #5995DA; /*Font color*/
     background-color: #D6E9FE;
     display: flex;
@@ -30,23 +31,22 @@
 .header {
     width: 900px;
     height: 300px; /*Explicit height allow us to vertically position our items*/
-    display: flex;
-    justify-content: space-between; 
+    display: flex; 
+    justify-content: space-between; /*Adds extra space between images*/
     align-items: center; /*Defines vertical alignment*/
 }
-.photo-grid-container {
+.photo-grid-container { /*Just like .menu-container and .header-container, centers the box item inside of the container*/
     display: flex;
     justify-content: center;
 }
 .photo-grid {
     width: 900px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /*Forces items that don't fit to get bumped down to the next row*/
+    justify-content: center; /*Extra items will follow this rule*/
+    flex-wrap: wrap; /*This means the flexbox is multi-line (forces items that don't fit to get bumped down to the nex row*/
 }
 .photo-grid-item {
-    border: 1px solid #fff;
-    width: 300px;
+    border: 1px solid #fff; /*Adds border to img*/
+    width: 300px; /*Adds specific size to img items*/
     height: 300px;
 }
-
