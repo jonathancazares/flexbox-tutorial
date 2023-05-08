@@ -7,3 +7,4 @@ A simple webpage created using Flexbox layout to better undestand its properties
 - [Click here to view](https://jonathancazares.github.io/flexbox-tutorial/)
 
 ## Screenshot 
+![Screenshot](https://github.com/jonathancazares/flexbox-tutorial/blob/main/images/screenshot.png)
