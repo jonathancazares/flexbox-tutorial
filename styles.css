@@ -69,4 +69,4 @@
     width: 300px;
 } 
 
-/*With these rules, only footer.two will inherit the flex: 1 declaration (meaning it will be a flexible element)*/
+/*With these rules, only footer.two will inherit the flex: 1 declaration (meaning it will be a flexible element that can stretch and shrink)*/
