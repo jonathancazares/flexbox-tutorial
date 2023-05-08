@@ -44,9 +44,29 @@
     display: flex;
     justify-content: center; /*Extra items will follow this rule*/
     flex-wrap: wrap; /*This means the flexbox is multi-line (forces items that don't fit to get bumped down to the nex row*/
+    flex-direction: row;
+    align-items: center;
 }
 .photo-grid-item {
     border: 1px solid #fff; /*Adds border to img*/
     width: 300px; /*Adds specific size to img items*/
     height: 300px;
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item { 
+    border: 1px solid #fff;
+    background-color: #D6E9FE;
+    height: 200px;
+    flex: 1; /*Defnines the width of individual items (tells the flex container how to distribute extra space to each item)*/
+
+}
+.footer-one, .footer-three { /*Turns .footer-one and .footer-three into fixed-width items*/
+    background-color: #5995DA;
+    flex: initial; /*falls back to the item’s explicit width property (300px)*/
+    width: 300px;
+} 
+
+/*With these rules, only footer.two will inherit the flex: 1 declaration (meaning it will be a flexible element)*/
